@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About me</a>
+        <a href="classworkaboutpage.html">Infromation</a>
+        <a href="education.html">Education</a>    
+    </nav>
+
+    <h1 class="h1">Contact</h1>
+    <p>If you share a passion for programming , feel free to reach out. I am open to collaboration and eager to connect with like-minded individuals. Form is shown bellow.</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+</body>
+</html>
