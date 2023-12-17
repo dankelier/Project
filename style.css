@@ -1,0 +1,107 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    color: aliceblue;
+    background-image: url(https://img.freepik.com/free-vector/wave-background-abstract-gradient-design_483537-3688.jpg);
+  }
+  
+  .header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(https://wallpapers.com/images/hd/code-symbols-programming-hjbyni9117oaqbap.jpg);
+    color: rgb(191, 0, 255);
+    font-size: 30px;
+
+  }
+  .content {
+    padding:20px;
+    
+}
+ 
+  
+  .content h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  
+.content p {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+
+a {
+    margin: 1px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.iframe {
+    margin: 50px;
+    border-style:groove;
+    border-color: rgb(41, 37, 37);
+    border-width: 5px;
+}
+
+.name {
+    color: brown;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+  animation: fadeIn 1s ease-in-out;
+  
+  
+}
+
+nav a {
+  text-align: center;
+  display:inline-block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+img {
+  width: 100%;
+}
+.info-square {
+  transition: transform 0.5s;
+  box-sizing: border-box;
+  text-align: center;
+}
+.info-square:hover {
+  transform: scale(0.9);
+}
